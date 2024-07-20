@@ -1,0 +1,58 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  
+  margin: 0;
+  padding: 20px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXbsmg5zFQK8uGwmQSORRo1RWuJOklJh5_MAvl8qxJHQ4w5sL7Mv-7p9f0FHoppnNJl30&usqp=CAU);
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+span {
+  flex: 1;
+}
+
+input[type='checkbox'] {
+  margin-right: 10px;
+}
