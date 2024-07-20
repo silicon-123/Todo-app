@@ -1,0 +1,24 @@
+/* src/App.css */
+
+/* Global Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://offering.solutions/wp-content/uploads/2022/07/group-419-min.jpg'); /* Replace with your image path */
+}
+
+/* App Container */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
